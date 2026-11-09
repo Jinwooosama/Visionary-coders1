@@ -1,0 +1,23 @@
+body{
+     background-color: rgb(65, 76, 110);
+ }
+ h1{
+    color: rgb(97, 2, 35);
+ }
+ p{
+    color: rgb(79, 5, 5);
+     background-color: antiquewhite;
+ }
+
+ #p1{
+    color:pink;
+    background-color: rgb(150, 187, 237);
+ }
+ .odd{
+    color: rgb(186, 31, 221);
+    background-color: rgb(0, 0, 0);
+ }
+ .even{
+    color: rgb(245, 16, 16);
+    background-color: rgb(255, 255, 255);
+ }
