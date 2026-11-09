@@ -1,0 +1,32 @@
+body{
+   background: linear-gradient(to bottom, white, skyblue);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+ }
+ h1{
+   color: rgba(129, 137, 183, 0.715);
+   font-family: "Redaction 70", sans-serif;
+   border-top-style: dotted;
+   border-bottom-style: dotted;
+   border-left-style:double;
+   border-right-style:double;
+   border-left-color: rgba(129, 137, 183, 0.715);
+   border-right-color: rgba(129, 137, 183, 0.715);
+
+
+ }
+ p{
+   color: rgb(65, 76, 110);
+   background-color: rgb(219, 211, 225);
+   font-family: "consolas", sans-serif;
+   font-style: italic;
+   font-weight: bold;
+   text-decoration: #5a1e8a wavy underline;
+   font-size: 20px;
+   border-style:outset;
+   border-color: rgba(42, 54, 118, 0.46);
+   border-width: 5px;
+   border-radius: 10px;
+   padding: 10px;
+ }
