@@ -1,7 +1,22 @@
-.item{
-  background-color: orange;
-  border: 3px solid;
-  height:100px;
+#box1{
+  border:1px;
+  background-color: skyblue;
+  height: 300px;
+  width:300px;
+  position: relative;
+
+  top: 50px;
+  left: 100px;
+  /* static is the default and the element is in its in normal state*/
+  /*relative is used to move some element relative to some point of origin*/
+  /* absolute is used to take element out of the flow of the document*/
+}
+#box2{
+  border:1px;
+  height: 100px;
   width:100px;
-  float: left;
+  background-color:tomato;
+  position:absolute;
+  
+  
 }
