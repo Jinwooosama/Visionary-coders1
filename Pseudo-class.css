@@ -1,0 +1,34 @@
+a:link{
+  color: red; /* changes the color of thw link*/
+}
+a:visited{
+  color: orange; /* changes the color of the link that u have visited */
+}
+a:hover{
+  color:hwb(110 22% 5%);
+}
+a:active{
+  color: yellow; /* when u hold down the mouse on the link*/
+}
+button:hover{
+  color: skyblue;
+  background-color: blue;
+}
+button:active{
+  background-color: white;
+}
+
+
+li:nth-child(even){
+  background-color:skyblue;
+  
+}
+li:nth-child(odd){
+  background-color: hwb(185 30% 26%)
+}
+li:nth-child(2){
+  background-color: green;
+}
+  li:nth-child(3n){         /* for every other thir element*/
+    background-color: red;
+  }
